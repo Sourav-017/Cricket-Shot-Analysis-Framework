@@ -48,3 +48,13 @@ python shot_simulator.py path/to/file.json
 | `--no-auto-skeleton` | Show points only, no bone lines |
 
 Run without a path argument to be prompted for one interactively.
+
+## Acknowledgments
+ 
+Built on top of the [**KU CricShot** dataset](https://github.com/AtanuCSE/CricketShotDetection) — raw cricket batting videos contributed by its original authors/uploaders. All credit for the source footage goes to them.
+ 
+Preprocessing pipeline used to derive this dataset:
+ 
+1. **YOLO** — detect and crop the batsman-only region from each raw video frame.
+2. **MeTRAbs** — extract 3D joint coordinates (SMPL-30 style) from the cropped batsman frames.
+3. **MSE-based frame selection** — reduce each clip down to 20 representative frames, chosen to minimize MSE and preserve the motion information.
