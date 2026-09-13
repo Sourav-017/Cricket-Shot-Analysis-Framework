@@ -1,6 +1,8 @@
 # SMPL-30 Pose Dataset & Shot Simulator
 
 ## Dataset
+<img width="785" height="781" alt="Screencast from 09-13-2026 09_56_10 PM" src="https://github.com/user-attachments/assets/8a5cffc8-910c-466d-a355-304745d24568" />
+
 
 Distributed as a single zip for easy upload, containing 4 folders — one per shot type:
 
