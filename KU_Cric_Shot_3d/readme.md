@@ -1,6 +1,3 @@
-<img width="400" height="400" alt="Pull Shot " src="https://github.com/user-attachments/assets/e3c054f0-b276-499f-94e8-cb32a954f930" />
-
-
 ## Dataset
 
 
@@ -24,6 +21,8 @@ Each `.json` file contains a sequence of frames capturing a single (or multi-per
 - Multi-person frames (if present) are nested one level deeper: `[[person_1_keypoints], [person_2_keypoints], ...]`
 
 ## Shot Simulator
+<img width="400" height="400" alt="Pull Shot " src="https://github.com/user-attachments/assets/e3c054f0-b276-499f-94e8-cb32a954f930" />
+
 
 `shot_simulator.py` plays back a pose file as a looping, mouse-rotatable 3D animation, with optional Kalman smoothing to reduce jitter.
 
